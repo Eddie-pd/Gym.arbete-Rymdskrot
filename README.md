@@ -1,3 +1,3 @@
 # Gym.arbete Rymdskrot
-Mitt gymnasiearbete som är en användning och ändring av kod från poliastro som angår "orbital decay" och "atmospheric drag"
+Mitt gymnasiearbete är en användning och ändring av kod från poliastro angående "orbital decay" och "atmospheric drag"
  
