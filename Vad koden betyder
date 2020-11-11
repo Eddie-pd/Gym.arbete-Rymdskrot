@@ -1,17 +1,24 @@
+Förklaring av kodens innehåll baserat på python console i pycharm, samt det jag hittat på internet och det jag förstått på egen hand.
+
+
+A_over_m = ((np.pi / 4.0) * (u.m ** 2) / (100 * u.kg)).to_value(u.km ** 2 / u.kg) : Denna beräkningen förstår jag inte.
+
 A_over_m = Tvärsnittsarea, kan jag ändra på arean och massan?, spelar massan någon roll?
 B = Ballistic coefficient?
 C_D = luftmotstånds koefficient (beroende på formen av objektet), vanligtvis mellan 1 och 2.
 R = Jordens radie(ekvatorn) = 6378 km
-k = någon gravitationskoefficient
+k = någon gravitationskoefficient/ i andra fall gravitationskonstanten
 t0 = current time(sekunder)
 H0 = skalhöjd av atmosfären(inte viktigt)
 rho0 = det som bestämmer hur stor densiteten luft är på olika höjder
 GCRS = koordinatsystem baserat relativt jorden
-epoch = 
+epoch = tidsvärden?
 tofs = time of flight? tofs = epoch(starting value u.h, ending value u.d, number of samples?)
 J2 perturbation = jorden är inte helt rund, detta påverkar omloppsbanan av en satellit så att dess höjd blir mer periodisk men overall så har de liknande omlopps-livstider.
 orbit = equator orbit height, ex: 230 km orbit(I DEN ANDRA ORBIT VARIABLEN) ovanför jordytan = 6608 km ovanför jordens mittpunkt
 rr = propagate?
+tdb = relativistic coordinate timescale
+lithobrake event = event där luftmotstånd saktar ner objekt
 
 ANGÅENDE ATT DET FINNS TVÅ TOFS OCH ORBIT VÄRDEN: JAG TESTA ATT GÖRA BERÄKNINGARNA MED BARA ETT VÄRDE AV VARJE(DE VÄRDENA SOM KOMMER SENARE I KODEN) OCH FICK SAMMA SVAR SOM INNAN.
 -KANSKE ÄR DET BARA ETT ONÖDIGT MISSTAG ATT HA TVÅ STYCKEN. MEN DET SOM FÖRVIRRAR MIG ÄR ATT DE TVÅ TOFS-VÄRDENA HAR OLIKA UNITS. EN HAR TIMMAR OCH SEKUNDER (u.h och u.s), OCH DEN ANDRA HAR DAGAR OCH TIMMAR(u.d och u.h).?
