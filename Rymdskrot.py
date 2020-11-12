@@ -24,7 +24,6 @@ pio.renderers.default = "notebook_connected"
 R = Earth.R.to(u.km).value
 k = Earth.k.to(u.km ** 3 / u.s ** 2).value
 
-orbit = Orbit.circular(Earth, 250 * u.km, epoch=Time(0.0, format="jd", scale="tdb")) #Varför finns två orbit-värden?
 
 # parameters of a body
 #C_D = 2.2  # dimentionless (any value would do)
@@ -39,23 +38,7 @@ for x in C_D:
     rho0 = rho0_earth.to(u.kg / u.km ** 3).value  # kg/km^3
     H0 = H0_earth.to(u.km).value #Min kommentar: Ändras atmosfärens egenskaper ju högre radien är i det här programmet?
 
-    tofs = TimeDelta(np.linspace(0 * u.h, 100000 * u.s, num=2000)) #Min kommentar: Varför finns det två tofs-värden i koden?, och varför har den här unit days?
 
-    rr = propagate(
-        orbit,
-        tofs,
-        method=cowell,
-        ad=atmospheric_drag_exponential,
-        R=R,
-        C_D=x,#Min kommentar: Här ändrade jag från C_D till x på högra sidan likhetstecknet
-        A_over_m=A_over_m,
-        H0=H0,
-        rho0=rho0,
-    )
-
-    plt.ylabel("h(t)")
-    plt.xlabel("t, days")
-    plt.plot(tofs.value, rr.norm() - Earth.R)
 
 #[<matplotlib.lines.Line2D at 0x7ffb5f511048>]
 
