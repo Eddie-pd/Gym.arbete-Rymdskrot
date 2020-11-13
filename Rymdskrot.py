@@ -68,8 +68,7 @@ for x in C_D:
         events=events,
     )
 
-    print('orbital decay seen after', lithobrake_event.last_t.to(u.d).value, 'days')
-
+    print('{0} {1:.2f} {2}'.format('orbital decay seen after', lithobrake_event.last_t.to(u.d).value, 'days'))
 
     plt.ylabel("h(t)")
     plt.xlabel("t, days")
