@@ -38,7 +38,7 @@ for x in C_D:
     rho0 = rho0_earth.to(u.kg / u.km ** 3).value  # kg/km^3
     H0 = H0_earth.to(u.km).value #Min kommentar: Ändras atmosfärens egenskaper ju högre radien är i det här programmet?
 
-    
+
 
 #[<matplotlib.lines.Line2D at 0x7ffb5f511048>]
 
@@ -49,7 +49,7 @@ for x in C_D:
 
 
     orbit = Orbit.circular(Earth, 230 * u.km, epoch=Time(0.0, format="jd", scale="tdb")) #Min kommentar: Här tror jag att jag kan ändra på värdet hos radien på omloppsbanan
-    tofs = TimeDelta(np.linspace(0 * u.h, 100000 * u.d, num=2000))#Min kommentar: Här tror jag deltatiden beskrivs, att den mäter mellan noll timmar till ett max antal dagar, samt att den mäter 2000 gånger.
+    tofs = TimeDelta(np.linspace(0 * u.h, 100 * u.d, num=200))#Min kommentar: Här tror jag deltatiden beskrivs, att den mäter mellan noll timmar till ett max antal dagar, samt att den mäter 2000 gånger.
 
     from poliastro.twobody.events import LithobrakeEvent
     lithobrake_event = LithobrakeEvent(R)
