@@ -1,5 +1,6 @@
 Förklaring av kodens innehåll baserat på python console i pycharm, samt det jag hittat på internet och det jag förstått på egen hand.
 
+Koden antar att orbit är en exakt cirkel och därför är eccentricity = 0 tror jag.
 
 A_over_m = ((np.pi / 4.0) * (u.m ** 2) / (100 * u.kg)).to_value(u.km ** 2 / u.kg) : Denna beräkningen förstår jag inte?: SVAR: De har använt formeln för arean av ett klot: pi/4*diameter och MASSAN SPELAR ROLL, de delar nog med massan för att få accelerationen. De har använt enheten för accelerationen: km/s^2 av någon anledning.  
 
