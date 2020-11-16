@@ -1,10 +1,10 @@
 Förklaring av kodens innehåll baserat på python console i pycharm, samt det jag hittat på internet och det jag förstått på egen hand.
 
 
-A_over_m = ((np.pi / 4.0) * (u.m ** 2) / (100 * u.kg)).to_value(u.km ** 2 / u.kg) : Denna beräkningen förstår jag inte.
+A_over_m = ((np.pi / 4.0) * (u.m ** 2) / (100 * u.kg)).to_value(u.km ** 2 / u.kg) : Denna beräkningen förstår jag inte?: SVAR: De har använt formeln för arean av ett klot: pi/4*diameter och MASSAN SPELAR ROLL, de delar nog med massan för att få accelerationen. De har använt enheten för accelerationen: km/s^2 av någon anledning.  
 
-A_over_m = Tvärsnittsarea, kan jag ändra på arean och massan?, spelar massan någon roll?
-B = Ballistic coefficient?
+A_over_m = Effektiv area, vilket i det här fallet blir tvärsnittsarea. Sedan delar de den med m, förmodligen för att få arean av en kraft.
+B = x * A_over_m
 C_D = luftmotstånds koefficient (beroende på formen av objektet), vanligtvis mellan 1 och 2.
 R = Jordens radie(ekvatorn) = 6378 km
 k = någon gravitationskoefficient/ i andra fall gravitationskonstanten
@@ -24,3 +24,4 @@ ANGÅENDE ATT DET FINNS TVÅ TOFS OCH ORBIT VÄRDEN: JAG TESTA ATT GÖRA BERÄKN
 -KANSKE ÄR DET BARA ETT ONÖDIGT MISSTAG ATT HA TVÅ STYCKEN. MEN DET SOM FÖRVIRRAR MIG ÄR ATT DE TVÅ TOFS-VÄRDENA HAR OLIKA UNITS. EN HAR TIMMAR OCH SEKUNDER (u.h och u.s), OCH DEN ANDRA HAR DAGAR OCH TIMMAR(u.d och u.h).?
 
 Även andra delar av koden finns två gånger. Det verkar inte göra något om jag tar bort dubletterna.
+FRÅGA: Inom vilka höjder funkar programmet?
