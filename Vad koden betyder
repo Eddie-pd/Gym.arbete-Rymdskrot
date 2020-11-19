@@ -25,4 +25,5 @@ ANGÅENDE ATT DET FINNS TVÅ TOFS OCH ORBIT VÄRDEN: JAG TESTA ATT GÖRA BERÄKN
 -KANSKE ÄR DET BARA ETT ONÖDIGT MISSTAG ATT HA TVÅ STYCKEN. MEN DET SOM FÖRVIRRAR MIG ÄR ATT DE TVÅ TOFS-VÄRDENA HAR OLIKA UNITS. EN HAR TIMMAR OCH SEKUNDER (u.h och u.s), OCH DEN ANDRA HAR DAGAR OCH TIMMAR(u.d och u.h).?
 
 Även andra delar av koden finns två gånger. Det verkar inte göra något om jag tar bort dubletterna.
-FRÅGA: Inom vilka höjder funkar programmet?
+FRÅGOR: Inom vilka höjder funkar programmet?
+Räknar programmet orbital decay som att rymdskrotet ramlar in i atmosfären igen, eller att rymdskrotet träffar marken???? Spelar detta någon märkvärd roll?

@@ -1,0 +1,7 @@
+Beräkningen är en utopisk beräkning på hur lång tid det kommer ta för LEO att bli fri från rymdskrot.
+Alltså att det inte finns något rymdskrot kvar i LEO. Beräkningen är utopisk eftersom att några antaganden görs.
+Dessa antaganden är: Rymdskroten har ingen förmåga att artificiellt öka sin hastighet genom t.ex. en booster, rymdskroten kommer inte kollidera med varandra eller något annat under hela tiden, alla rymdskroten befinner sig i perfekta runda orbits och har alla klotformade kroppar. Det används dessutom en simplifierad modell av atmosfärens densitet och den enda som påverkar omloppsbanorna är gravitationskraften mellan jorden och rymdskrotet samt luftmotståndet från atmosfären.
+Rymdskrot definerar jag på följande sätt: Ett föremål i en LEO som inte har någon använding av mänskligheten utan objektet är bara i LEO runt Jorden. Objektet är skapat av människor.
+
+Beräkningen kommer att vara endast en beräkning där jag skapar ett rymdskort som har värden som ger den en maximal tid i omloppsbana LEO. För att göra denna beräkningen kommer jag sätta följande värden för rymdskrotet: begynnelsehöjd på orbit: 2000 km, luftmotståndskonstanten C_D kommer att vara på ett ännu inte bestämt maxvärde(kanske 2.0?), massan är obestämd(HUR PÅVERKAR MASSAN ORBIT-LIFETIME?).
+
