@@ -5,3 +5,4 @@ Rymdskrot definerar jag på följande sätt: Ett föremål i en LEO som inte har
 
 Beräkningen kommer att vara endast en beräkning där jag skapar ett rymdskort som har värden som ger den en maximal tid i omloppsbana LEO. För att göra denna beräkningen kommer jag sätta följande värden för rymdskrotet: begynnelsehöjd på orbit: 2000 km, luftmotståndskonstanten C_D kommer att vara på ett ännu inte bestämt maxvärde(kanske 2.0?), massan är obestämd(HUR PÅVERKAR MASSAN ORBIT-LIFETIME?).
 
+DRAG COEEFICENT FÖR EN CIRKEL KAN INTE BARA ÖVERFÖRAS FRÅN JORDEN TILL RYMDEN? 
