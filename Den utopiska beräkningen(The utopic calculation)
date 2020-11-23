@@ -3,6 +3,10 @@ Alltså att det inte finns något rymdskrot kvar i LEO. Beräkningen är utopisk
 Dessa antaganden är: Rymdskroten har ingen förmåga att artificiellt öka sin hastighet genom t.ex. en booster, rymdskroten kommer inte kollidera med varandra eller något annat under hela tiden, alla rymdskroten befinner sig i perfekta runda orbits och har alla klotformade kroppar. Det används dessutom en simplifierad modell av atmosfärens densitet och den enda som påverkar omloppsbanorna är gravitationskraften mellan jorden och rymdskrotet samt luftmotståndet från atmosfären.
 Rymdskrot definerar jag på följande sätt: Ett föremål i en LEO som inte har någon använding av mänskligheten utan objektet är bara i LEO runt Jorden. Objektet är skapat av människor.
 
-Beräkningen kommer att vara endast en beräkning där jag skapar ett rymdskort som har värden som ger den en maximal tid i omloppsbana LEO. För att göra denna beräkningen kommer jag sätta följande värden för rymdskrotet: begynnelsehöjd på orbit: 2000 km, luftmotståndskonstanten C_D kommer att vara på ett ännu inte bestämt maxvärde(kanske 2.0?), massan är obestämd(HUR PÅVERKAR MASSAN ORBIT-LIFETIME?).
+Beräkningen kommer att vara endast en beräkning där jag skapar ett rymdskrot som har värden som ger den en maximal tid i omloppsbana LEO. För att göra denna beräkningen kommer jag sätta följande värden för rymdskrotet: begynnelsehöjd på orbit: 2000 km, luftmotståndskonstanten C_D kommer att vara på ett ännu inte bestämt värde för minsta möjliga retardation av hastigheten(kanske 0.0något?), massan är obestämd(En högre massa ger längre tid i orbit. Jag tänker att det är svårare att sänka farten på något med väldigt stor massa, då den har större rörelsemängd. Och om hastigheten är hög så stannar den i högre orbit.).
 
-DRAG COEEFICENT FÖR EN CIRKEL KAN INTE BARA ÖVERFÖRAS FRÅN JORDEN TILL RYMDEN?
+DRAG COEEFICENT FÖR EN CIRKEL KAN INTE BARA ÖVERFÖRAS FRÅN JORDEN TILL RYMDEN? Svar: Jo vi antar det, men egentligen inte? (Erdzan sa något såhär(men sa sedan att jag hade tolkat det fel, så OBS! förmodligen fel.): Drag-coefficient är räknad som ett medelvärde i atmosfären(p.g.a vindar a.k.a luftströmmar), i rymden har man samma värde på C_D men värdet är istället konstant, inga riktiga strömmar av luft.)
+Ändras C_D utifrån storleken på objektet? Svar: Ja, men jag kollar inte på detta.
+
+Funkar koden på höjder som 2000 km? Bara att testa och validera i guess.
+
