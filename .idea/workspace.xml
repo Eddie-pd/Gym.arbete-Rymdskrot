@@ -11,6 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ef01b28-4e5a-4c00-acc2-fb0a8e4aefc6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Visualisering" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -38,6 +40,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
@@ -90,9 +93,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="441" y="217" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605798995588">
-      <screen x="0" y="0" width="1440" height="838" />
+    <state x="441" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606745274413">
+      <screen x="0" y="0" width="1440" height="835" />
     </state>
+    <state x="441" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.835@0.0.1440.835" timestamp="1606745274413" />
     <state x="441" y="217" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.838@0.0.1440.838" timestamp="1605798995588" />
     <state x="441" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.812@0.23.1440.812" timestamp="1604317624164" />
     <state x="487" y="261" key="#com.intellij.tools.ToolEditorDialog" timestamp="1604921219314">
@@ -136,6 +140,10 @@
     </state>
     <state width="404" height="328" key="XDebugger.FullValuePopup/0.23.1440.812@0.23.1440.812" timestamp="1604934112388" />
     <state width="404" height="329" key="XDebugger.FullValuePopup/0.23.1440.813@0.23.1440.813" timestamp="1605116265272" />
+    <state x="0" y="0" width="933" height="836" key="dock-window-1" timestamp="1606745283555">
+      <screen x="0" y="0" width="1440" height="835" />
+    </state>
+    <state x="0" y="0" width="933" height="836" key="dock-window-1/0.0.1440.835@0.0.1440.835" timestamp="1606745283555" />
     <state x="385" y="160" width="670" height="676" key="search.everywhere.popup" timestamp="1604318049521">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
