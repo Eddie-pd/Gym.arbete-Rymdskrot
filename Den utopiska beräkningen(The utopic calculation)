@@ -1,12 +1,21 @@
 Beräkningen är en utopisk beräkning på hur lång tid det kommer ta för LEO att bli fri från rymdskrot.
 Alltså att det inte finns något rymdskrot kvar i LEO. Beräkningen är utopisk eftersom att några antaganden görs.
-Dessa antaganden är: Rymdskroten har ingen förmåga att artificiellt öka sin hastighet genom t.ex. en booster, rymdskroten kommer inte kollidera med varandra eller något annat under hela tiden, alla rymdskroten befinner sig i perfekta runda orbits och har alla klotformade kroppar. Det används dessutom en simplifierad modell av atmosfärens densitet och den enda som påverkar omloppsbanorna är gravitationskraften mellan jorden och rymdskrotet samt luftmotståndet från atmosfären. Jorden antas vara ett perfekt klot och J2 perturbation(ändring av RAAN p.g.a jordens tjockhet), tas inte med.
+Dessa antaganden är: Rymdskroten har ingen förmåga att artificiellt öka sin hastighet genom t.ex. en booster,
+rymdskroten kommer inte kollidera med varandra eller något annat under hela tiden,
+alla rymdskroten befinner sig i perfekta runda orbits och har alla klotformade kroppar.
+Det används dessutom en simplifierad modell av atmosfärens densitet och den enda som påverkar omloppsbanorna är gravitationskraften mellan jorden och rymdskrotet samt luftmotståndet från atmosfären.
+Jorden antas vara ett perfekt klot och J2 perturbation(ändring av RAAN p.g.a jordens tjockhet), tas inte med.
 Rymdskrot definerar jag på följande sätt: Ett föremål i en LEO som inte har någon använding av mänskligheten utan objektet är bara i LEO runt Jorden. Objektet är skapat av människor.
 
-Beräkningen kommer att vara endast en beräkning där jag skapar ett rymdskrot som har värden som ger den en maximal tid i omloppsbana LEO. För att göra denna beräkningen kommer jag sätta följande värden för rymdskrotet: begynnelsehöjd på orbit: 2000 km, luftmotståndskonstanten C_D kommer att vara på ett ännu inte bestämt värde för minsta möjliga retardation av hastigheten(kanske 0.0något?), massan är obestämd(En högre massa ger längre tid i orbit. Jag tänker att det är svårare att sänka farten på något med väldigt stor massa, då den har större rörelsemängd. Och om hastigheten är hög så stannar den i högre orbit.).
+Beräkningen kommer att vara endast en beräkning där jag skapar ett rymdskrot som har värden som ger den en maximal tid i omloppsbana LEO. För att göra denna beräkningen kommer jag sätta följande värden för rymdskrotet: begynnelsehöjd på orbit: 2000 km, luftmotståndskonstanten C_D kommer att vara på ett ännu inte bestämt värde(2.2?) , massan är obestämd(En högre massa ger längre tid i orbit. Jag tänker att det är svårare att sänka farten på något med väldigt stor massa, då den har större rörelsemängd. Och om hastigheten är hög så stannar den i högre orbit.
+Men med större massa så är gravitationskraften större och den "faller" mot jorden med större kraft. Ska testa run med olika massor.).
 
 DRAG COEEFICENT FÖR EN CIRKEL KAN INTE BARA ÖVERFÖRAS FRÅN JORDEN TILL RYMDEN? Svar: Jo vi antar det, men egentligen inte? (Erdzan sa något såhär(men sa sedan att jag hade tolkat det fel, så OBS! förmodligen fel.): Drag-coefficient är räknad som ett medelvärde i atmosfären(p.g.a vindar a.k.a luftströmmar), i rymden har man samma värde på C_D men värdet är istället konstant, inga riktiga strömmar av luft.)
 Ändras C_D utifrån storleken på objektet? Svar: Ja, men jag kollar inte på detta.
 
 Funkar koden på höjder som 2000 km? Bara att testa och validera i guess.
 
+Fler antaganden: Luftmotståndskonstanten är konstant(den ändras baserat på höjd/densitet av luftpartiklar), och det verkar som att man genom tiderna antagit en C_D på 2.2 för satelliter. Kanske gör jag samma antagande. Läs mer om detta!
+
+NOTE FÖR NÄSTA BERÄKNING: För att göra en lista av massan t.ex. så skriv massor = [1,2,3] och sätt sedan in variabeln massor i beräkningen, och förmodligen skapa en till for loop som for i, sedan for y precis under C_D for loopen?
+it's messy I know.
