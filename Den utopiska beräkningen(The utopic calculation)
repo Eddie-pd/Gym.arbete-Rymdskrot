@@ -16,6 +16,6 @@ DRAG COEEFICENT FÖR EN CIRKEL KAN INTE BARA ÖVERFÖRAS FRÅN JORDEN TILL RYMDE
 Funkar koden på höjder som 2000 km? Bara att testa och validera i guess.
 
 Fler antaganden: Luftmotståndskonstanten är konstant(den ändras baserat på höjd/densitet av luftpartiklar), och det verkar som att man genom tiderna antagit en C_D på 2.2 för satelliter. Kanske gör jag samma antagande. Läs mer om detta!
-
+Alltså är luftpartiklarna stilla tror jag(inga vindar)
 NOTE FÖR NÄSTA BERÄKNING: För att göra en lista av massan t.ex. så skriv massor = [1,2,3] och sätt sedan in variabeln massor i beräkningen, och förmodligen skapa en till for loop som for i, sedan for y precis under C_D for loopen?
 it's messy I know.
