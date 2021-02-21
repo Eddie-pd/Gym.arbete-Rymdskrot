@@ -47,7 +47,7 @@ H0 = H0_earth.to(u.km).value
 
 
 
-orbit = Orbit.circular(Earth, 250 * u.km, epoch=Time(0.0, format="jd", scale="tdb"))
+orbit = Orbit.circular(Earth, 300 * u.km, epoch=Time(0.0, format="jd", scale="tdb"))
 tofs = TimeDelta(np.linspace(0 * u.h, 100000000 * u.d, num=200))
 
 from poliastro.twobody.events import LithobrakeEvent
