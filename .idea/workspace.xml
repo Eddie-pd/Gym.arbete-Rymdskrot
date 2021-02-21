@@ -11,8 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ef01b28-4e5a-4c00-acc2-fb0a8e4aefc6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Utopi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utopi.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +146,6 @@
       <screen x="0" y="0" width="1440" height="820" />
     </state>
     <state width="1419" height="252" key="GridCell.Tab.0.bottom/0.0.1440.820@0.0.1440.820" timestamp="1613670634230" />
-    <state width="1419" height="254" key="GridCell.Tab.0.bottom/0.0.1440.835@0.0.1440.835" timestamp="1605117148638" />
     <state width="1419" height="212" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1612539840681" />
     <state width="1419" height="216" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1608053573293" />
     <state width="1419" height="216" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1608061764438" />
@@ -154,7 +153,6 @@
       <screen x="0" y="0" width="1440" height="820" />
     </state>
     <state width="1419" height="252" key="GridCell.Tab.0.center/0.0.1440.820@0.0.1440.820" timestamp="1613670634228" />
-    <state width="1419" height="254" key="GridCell.Tab.0.center/0.0.1440.835@0.0.1440.835" timestamp="1605117148637" />
     <state width="1419" height="212" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1612539840680" />
     <state width="1419" height="216" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1608053573292" />
     <state width="1419" height="216" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1608061764436" />
@@ -162,7 +160,6 @@
       <screen x="0" y="0" width="1440" height="820" />
     </state>
     <state width="1419" height="252" key="GridCell.Tab.0.left/0.0.1440.820@0.0.1440.820" timestamp="1613670634226" />
-    <state width="1419" height="254" key="GridCell.Tab.0.left/0.0.1440.835@0.0.1440.835" timestamp="1605117148636" />
     <state width="1419" height="212" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1612539840679" />
     <state width="1419" height="216" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1608053573291" />
     <state width="1419" height="216" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1608061764436" />
@@ -170,17 +167,13 @@
       <screen x="0" y="0" width="1440" height="820" />
     </state>
     <state width="1419" height="252" key="GridCell.Tab.0.right/0.0.1440.820@0.0.1440.820" timestamp="1613670634229" />
-    <state width="1419" height="254" key="GridCell.Tab.0.right/0.0.1440.835@0.0.1440.835" timestamp="1605117148638" />
     <state width="1419" height="212" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1612539840680" />
     <state width="1419" height="216" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1608053573292" />
     <state width="1419" height="216" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1608061764437" />
-    <state width="404" height="329" key="XDebugger.FullValuePopup" timestamp="1605116265272">
-      <screen x="0" y="23" width="1440" height="813" />
-    </state>
-    <state width="404" height="329" key="XDebugger.FullValuePopup/0.23.1440.813@0.23.1440.813" timestamp="1605116265272" />
-    <state x="0" y="0" width="933" height="836" key="dock-window-1" timestamp="1606745283555">
-      <screen x="0" y="0" width="1440" height="835" />
+    <state x="0" y="0" width="1234" height="820" key="dock-window-1" timestamp="1613919026137">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="0" y="0" width="933" height="836" key="dock-window-1/0.0.1440.835@0.0.1440.835" timestamp="1606745283555" />
+    <state x="0" y="0" width="1234" height="820" key="dock-window-1/0.23.1440.797@0.23.1440.797" timestamp="1613919026137" />
   </component>
 </project>
