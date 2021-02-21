@@ -11,7 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ef01b28-4e5a-4c00-acc2-fb0a8e4aefc6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Den utopiska beräkningen(The utopic calculation)" beforeDir="false" afterPath="$PROJECT_DIR$/Den utopiska beräkningen(The utopic calculation)" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utopi.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Utopi">
+  <component name="RunManager" selected="Python.Utopi (1)">
     <configuration name="Rymdskrot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Gym.arbete-Rymdskrot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -64,6 +65,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Rymdskrot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Utopi (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Gym.arbete-Rymdskrot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/Utopi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,6 +117,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Utopi (1)" />
         <item itemvalue="Python.Utopi" />
         <item itemvalue="Python.Rymdskrot" />
       </list>
@@ -119,59 +142,45 @@
     </state>
     <state x="441" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.835@0.0.1440.835" timestamp="1606745274413" />
     <state x="441" y="217" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.838@0.0.1440.838" timestamp="1605798995588" />
-    <state x="441" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.812@0.23.1440.812" timestamp="1604317624164" />
-    <state x="487" y="261" key="#com.intellij.tools.ToolEditorDialog" timestamp="1604921219314">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state width="1419" height="252" key="GridCell.Tab.0.bottom" timestamp="1613670634230">
+      <screen x="0" y="0" width="1440" height="820" />
     </state>
-    <state x="487" y="261" key="#com.intellij.tools.ToolEditorDialog/0.23.1440.813@0.23.1440.813" timestamp="1604921219314" />
-    <state width="1419" height="216" key="GridCell.Tab.0.bottom" timestamp="1608061764438">
-      <screen x="0" y="23" width="1440" height="813" />
-    </state>
+    <state width="1419" height="252" key="GridCell.Tab.0.bottom/0.0.1440.820@0.0.1440.820" timestamp="1613670634230" />
     <state width="1419" height="254" key="GridCell.Tab.0.bottom/0.0.1440.835@0.0.1440.835" timestamp="1605117148638" />
+    <state width="1419" height="212" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1612539840681" />
     <state width="1419" height="216" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1608053573293" />
-    <state width="1419" height="215" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1604923134885" />
     <state width="1419" height="216" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1608061764438" />
-    <state width="1419" height="215" key="GridCell.Tab.0.bottom/0.23.1440.815@0.23.1440.815" timestamp="1604930606230" />
-    <state width="1419" height="216" key="GridCell.Tab.0.center" timestamp="1608061764436">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state width="1419" height="252" key="GridCell.Tab.0.center" timestamp="1613670634228">
+      <screen x="0" y="0" width="1440" height="820" />
     </state>
+    <state width="1419" height="252" key="GridCell.Tab.0.center/0.0.1440.820@0.0.1440.820" timestamp="1613670634228" />
     <state width="1419" height="254" key="GridCell.Tab.0.center/0.0.1440.835@0.0.1440.835" timestamp="1605117148637" />
+    <state width="1419" height="212" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1612539840680" />
     <state width="1419" height="216" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1608053573292" />
-    <state width="1419" height="215" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1604923134884" />
     <state width="1419" height="216" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1608061764436" />
-    <state width="1419" height="215" key="GridCell.Tab.0.center/0.23.1440.815@0.23.1440.815" timestamp="1604930606228" />
-    <state width="1419" height="216" key="GridCell.Tab.0.left" timestamp="1608061764436">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state width="1419" height="252" key="GridCell.Tab.0.left" timestamp="1613670634226">
+      <screen x="0" y="0" width="1440" height="820" />
     </state>
+    <state width="1419" height="252" key="GridCell.Tab.0.left/0.0.1440.820@0.0.1440.820" timestamp="1613670634226" />
     <state width="1419" height="254" key="GridCell.Tab.0.left/0.0.1440.835@0.0.1440.835" timestamp="1605117148636" />
+    <state width="1419" height="212" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1612539840679" />
     <state width="1419" height="216" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1608053573291" />
-    <state width="1419" height="215" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1604923134884" />
     <state width="1419" height="216" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1608061764436" />
-    <state width="1419" height="215" key="GridCell.Tab.0.left/0.23.1440.815@0.23.1440.815" timestamp="1604930606227" />
-    <state width="1419" height="216" key="GridCell.Tab.0.right" timestamp="1608061764437">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state width="1419" height="252" key="GridCell.Tab.0.right" timestamp="1613670634229">
+      <screen x="0" y="0" width="1440" height="820" />
     </state>
+    <state width="1419" height="252" key="GridCell.Tab.0.right/0.0.1440.820@0.0.1440.820" timestamp="1613670634229" />
     <state width="1419" height="254" key="GridCell.Tab.0.right/0.0.1440.835@0.0.1440.835" timestamp="1605117148638" />
+    <state width="1419" height="212" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1612539840680" />
     <state width="1419" height="216" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1608053573292" />
-    <state width="1419" height="215" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1604923134885" />
     <state width="1419" height="216" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1608061764437" />
-    <state width="1419" height="215" key="GridCell.Tab.0.right/0.23.1440.815@0.23.1440.815" timestamp="1604930606229" />
-    <state x="229" y="63" key="SettingsEditor" timestamp="1604921478208">
-      <screen x="0" y="23" width="1440" height="813" />
-    </state>
-    <state x="229" y="63" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1604921478208" />
     <state width="404" height="329" key="XDebugger.FullValuePopup" timestamp="1605116265272">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="404" height="328" key="XDebugger.FullValuePopup/0.23.1440.812@0.23.1440.812" timestamp="1604934112388" />
     <state width="404" height="329" key="XDebugger.FullValuePopup/0.23.1440.813@0.23.1440.813" timestamp="1605116265272" />
     <state x="0" y="0" width="933" height="836" key="dock-window-1" timestamp="1606745283555">
       <screen x="0" y="0" width="1440" height="835" />
     </state>
     <state x="0" y="0" width="933" height="836" key="dock-window-1/0.0.1440.835@0.0.1440.835" timestamp="1606745283555" />
-    <state x="385" y="160" width="670" height="676" key="search.everywhere.popup" timestamp="1604318049521">
-      <screen x="0" y="23" width="1440" height="813" />
-    </state>
-    <state x="385" y="160" width="670" height="676" key="search.everywhere.popup/0.23.1440.813@0.23.1440.813" timestamp="1604318049521" />
   </component>
 </project>
