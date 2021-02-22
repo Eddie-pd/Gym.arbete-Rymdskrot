@@ -22,14 +22,15 @@ from poliastro.twobody.events import LithobrakeEvent
 
 R = Earth.R.to(u.km).value
 
-orbit = Orbit.circular(Earth, 300 * u.km)
+orbit = Orbit.circular(Earth, 200 * u.km)
 t_decay = 7.17 * u.d
 
 # parameters of a body
 C_D = 2.2  # dimentionless (any value would do)
-A_over_m = ((np.pi / 4.0) * (u.m ** 2) / (100 * u.kg)).to_value(
-u.km ** 2 / u.kg
-)  # km^2/kg
+#A_over_m = ((np.pi / 4.0) * (u.m ** 2) / (100 * u.kg)).to_value(
+#u.km ** 2 / u.kg
+#)  # km^2/kg
+A_over_m = (((4 * np.pi * 0.0144) / 4.0) * (u.m ** 2) / (48 * u.kg)).to_value(u.km ** 2 / u.kg)
 
 tofs = [365] * u.d
 
