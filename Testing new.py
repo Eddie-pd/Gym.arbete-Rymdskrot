@@ -22,7 +22,7 @@ from poliastro.twobody.events import LithobrakeEvent
 
 R = Earth.R.to(u.km).value
 
-orbit = Orbit.circular(Earth, 200 * u.km)
+orbit = Orbit.circular(Earth, 300 * u.km)
 t_decay = 7.17 * u.d
 
 # parameters of a body
