@@ -11,8 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ef01b28-4e5a-4c00-acc2-fb0a8e4aefc6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Utopi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NOT EXPONENTIAL.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utopi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utopi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,28 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Utopi (1)">
+  <component name="RunManager" selected="Python.NOT EXPONENTIAL">
+    <configuration name="NOT EXPONENTIAL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Gym.arbete-Rymdskrot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NOT EXPONENTIAL.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Rymdskrot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Gym.arbete-Rymdskrot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,8 +139,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Utopi (1)" />
+        <item itemvalue="Python.NOT EXPONENTIAL" />
         <item itemvalue="Python.Utopi" />
+        <item itemvalue="Python.Utopi (1)" />
         <item itemvalue="Python.Rymdskrot" />
       </list>
     </recent_temporary>
@@ -142,32 +165,32 @@
     </state>
     <state x="441" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.835@0.0.1440.835" timestamp="1606745274413" />
     <state x="441" y="217" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.838@0.0.1440.838" timestamp="1605798995588" />
-    <state width="1419" height="252" key="GridCell.Tab.0.bottom" timestamp="1613670634230">
-      <screen x="0" y="0" width="1440" height="820" />
+    <state width="1419" height="251" key="GridCell.Tab.0.bottom" timestamp="1613997765896">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1419" height="252" key="GridCell.Tab.0.bottom/0.0.1440.820@0.0.1440.820" timestamp="1613670634230" />
-    <state width="1419" height="212" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1612539840681" />
+    <state width="697" height="251" key="GridCell.Tab.0.bottom/0.0.1440.820@0.0.1440.820" timestamp="1613997508207" />
+    <state width="1419" height="251" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1613997765896" />
     <state width="1419" height="216" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1608053573293" />
     <state width="1419" height="216" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1608061764438" />
-    <state width="1419" height="252" key="GridCell.Tab.0.center" timestamp="1613670634228">
-      <screen x="0" y="0" width="1440" height="820" />
+    <state width="1419" height="251" key="GridCell.Tab.0.center" timestamp="1613997765895">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1419" height="252" key="GridCell.Tab.0.center/0.0.1440.820@0.0.1440.820" timestamp="1613670634228" />
-    <state width="1419" height="212" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1612539840680" />
+    <state width="697" height="251" key="GridCell.Tab.0.center/0.0.1440.820@0.0.1440.820" timestamp="1613997508206" />
+    <state width="1419" height="251" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1613997765895" />
     <state width="1419" height="216" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1608053573292" />
     <state width="1419" height="216" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1608061764436" />
-    <state width="1419" height="252" key="GridCell.Tab.0.left" timestamp="1613670634226">
-      <screen x="0" y="0" width="1440" height="820" />
+    <state width="1419" height="251" key="GridCell.Tab.0.left" timestamp="1613997765895">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1419" height="252" key="GridCell.Tab.0.left/0.0.1440.820@0.0.1440.820" timestamp="1613670634226" />
-    <state width="1419" height="212" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1612539840679" />
+    <state width="697" height="251" key="GridCell.Tab.0.left/0.0.1440.820@0.0.1440.820" timestamp="1613997508197" />
+    <state width="1419" height="251" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1613997765895" />
     <state width="1419" height="216" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1608053573291" />
     <state width="1419" height="216" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1608061764436" />
-    <state width="1419" height="252" key="GridCell.Tab.0.right" timestamp="1613670634229">
-      <screen x="0" y="0" width="1440" height="820" />
+    <state width="1419" height="251" key="GridCell.Tab.0.right" timestamp="1613997765895">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1419" height="252" key="GridCell.Tab.0.right/0.0.1440.820@0.0.1440.820" timestamp="1613670634229" />
-    <state width="1419" height="212" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1612539840680" />
+    <state width="697" height="251" key="GridCell.Tab.0.right/0.0.1440.820@0.0.1440.820" timestamp="1613997508206" />
+    <state width="1419" height="251" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1613997765895" />
     <state width="1419" height="216" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1608053573292" />
     <state width="1419" height="216" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1608061764437" />
     <state x="0" y="0" width="1234" height="820" key="dock-window-1" timestamp="1613919026137">
